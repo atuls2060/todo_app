@@ -1,5 +1,5 @@
-# todo_app
-# Teach Stacks
+# Todo_app
+# Tech Stack
 <ul>
   <li><b> Redux for State management</b></li>
 <li><b>React js</b></li>
