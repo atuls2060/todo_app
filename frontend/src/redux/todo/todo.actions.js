@@ -48,7 +48,7 @@ export const deleteTodo = (id) => async (dispatch) => {
 export const clearCompletedTodo = () => async (dispatch) => {
 
     try {
-        const { data } = await axios.delete("http://localhost:8080/tasks/clearcompleted")
+        const { data } = await axios.delete("http://localhost:8080/tasks")
         console.log(data)
         dispatch(getTodos())
     } catch (error) {

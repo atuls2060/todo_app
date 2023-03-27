@@ -59,9 +59,9 @@ tasksRouter.delete("/:id", async (req, res) => {
 
 })
 
-tasksRouter.delete("/clearcompleted", async (req, res) => {
+tasksRouter.delete("/", async (req, res) => {
     try {
-        await TaskModel.deleteMany({ isCompleted: false })
+        await TaskModel.deleteMany({ isCompleted: true })
         res.send({
             msg: "completed tasks deleted"
         })
