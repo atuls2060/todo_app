@@ -25,3 +25,7 @@
 ```npm start```
 #### Inside frontend folder start client by running command
 ```npm start```
+
+<P> This todo app supports CRUD operation
+and for styling purpose i have used Chakra Ui as my main focus was to complete functionality...
+Later on i added redux as well for managing state </p>
